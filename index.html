@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>iEducate - Transforming Online Education</title>
+    <link rel="stylesheet" href="css/resp.css">
+    <link rel="stylesheet" href="css/style.css">
+        
+
+  </head>
+
+  <body>
+    <nav class="navbar background h-nav-resp" id ="home">
+      <ul class="nav-list v-class-resp">
+        <div class="logo">
+          <img src="image/img.jpg" alt=" logo of image " />
+        </div>
+
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#contact">Contact us</a></li>
+      </ul>
+      
+      <div class="rightnav v-class-resp" >
+        <form action="https://www.google.com/search" method ="get" >
+          <input type="text" name="search" placeholder="search Here" " id="search" />
+          <button class="btn btn-sm" type ='submit'>Search</button>
+        </form>
+
+      </div>
+     
+      <div class="burger">
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+      </div>
+    </nav>
+    <section class="background firstSection">
+      <div class="box-main">
+        <div class="firstHalf">
+          <p class="text-big">The Future of the education is the here</p>
+          <p class="text-small">
+            Education is very important foa nowdays,in this world approx 7
+            Billio peoples we need to educate all of them.This is the plateform
+            of an educated world and we are proud to say that the future of
+            education is here.
+          </p>
+
+          <div class="buttons">
+            <button class="btn">join us</button>
+            <button class="btn">Watch video online</button>
+          </div>
+        </div>
+
+        <div class="secondHalf">
+          <img src="image/side-img.jpg" />
+        </div>
+      </div>
+    </section>
+    <section class="section"id="services">
+      <div class="paras">
+        <p class="sectionTag text-big">Lets Grow Togrther</p>
+        <p class="subTag text-small">
+          Early education for upper caste males in India commenced under the
+          supervision of a guru or prabhu. The education was delivered through
+          Gurukula. The relationship between Guru and his Shishya (students
+          /diciples) was very important part of the education. Takshasila (in
+          modern-day Pakistan) is one of the example of ancient higher learning
+          institute in India from possibly 8th century BCE, however, it is
+          debatable whether it could be regarded a university or not in modern
+          sense, since teachers living there may not have had official
+          membership of particular colleges, and there did not seem to have
+          existed purpose-built lecture halls and residential quarters in a
+          Taxila, in contrast to the later Nalanda university in eastern India.
+          Nalanda was the oldest university-system of education in the world in
+          the modern sense of university. There all subjects were taught in
+          Ariano -Páli language.
+        </p>
+      </div>
+      <div class="Thumbnail">
+        <img src="image/img2.jpg" alt="" class="imgFluid" />
+      </div>
+    </section>
+
+    <section class="section section-left" id="about">
+      <div class="paras">
+        <p class="sectionTag text-big">Trasforming Education in India</p>
+        <p class="subTag text-small">
+          Education in India is primarily managed by state-run public education
+          system, which fall under the command of the government at three
+          levels: central, state and local. Under various articles of the Indian
+          Constitution and the Right of Children to Free and Compulsory
+          Education Act, 2009, free and compulsory education is provided as a
+          fundamental right to children aged 6 to 14. The approximate ratio of
+          public schools to private schools in India is 7:5.
+        </p>
+      </div>
+      <div class="Thumbnail">
+        <img src="image/img3.jpg" alt="" class="imgFluid" />
+      </div>
+    </section>
+    <section class="section section-right">
+      <div class="paras">
+        <p class="sectionTag text-big">Never Stop Learning</p>
+        <p class="subTag text-small">
+          Learning is the process of acquiring new understanding, knowledge,
+          behaviors, skills, values, attitudes, and preferences.The ability
+          to learn is possessed by humans, animals, and some machines; there is
+          also evidence for some kind of learning in certain plants.Some
+          learning is immediate, induced by a single event (e.g. being burned by
+          a hot stove), but much skill and knowledge accumulate from repeated
+          experiences. The changes induced by learning often last a lifetime,
+          and it is hard to distinguish learned material that seems to be "lost"
+          from that which cannot be retrieved.
+        </p>
+      </div>
+      <div class="Thumbnailgy">
+        <img src="image/img4.jpg" alt="" class="imgFluid" />
+        
+      </div>
+    </section>
+    
+    <section class="contact" id = "contact">
+      <h1 class="text-transform">Contact Us</h1>
+      <div class= "myForm">
+        <form id="form">
+          <input class="form-input" type="text" name="name" id="name" placeholder="Enter Your Name">
+          <input class="form-input" type="text" name="phone" id="phone" placeholder="Enter Your Phone">
+          <input class="form-input" type="email" name="email" id="email" placeholder="Enter Your Email">
+          <input class="form-input" type="text" name="gender" id="gender" placeholder="Enter Your Gender">
+          <textarea class="form-input" id="address" cols="30" rows="10" placeholder="Your Address"></textarea>
+          <textarea class= "form-input name="text" id="text" cols="30" rows="10" placeholder="Ellaborate your Concern"></textarea>
+          <button class="btn btn-sm  btn-dark" type = "submit" value = "submit">Submit</button>
+        </form>
+
+      </div>
+
+    </section>
+    <footer class="background footer">
+      <p class ="text-footer">
+        CopyRight &copy; 2025 www.Ieducate.com - All rights reserved
+
+      </p><br>
+      <p class ="text-footer">
+        This Website is created by Amit Pandey Using HTML, CSS, JAVASCRIPT
+      </p>
+
+    </footer>
+       
+
+  </body>
+  <scrip>
+    var form = document.getElementById('form')
+
+    form.addEventListener('submit',function(event){
+      var name = document.getElementById("name").value ;
+      console.log(name);
+
+      var phone = document.getElementById('phone').value ;
+      console.log(phone);
+
+      var email = document.getElementById("email").value ;
+      console.log(email);
+
+      var address = document.getElementById("address").value ;
+      console.log(address);
+
+     var text = document.getElementById("text").value ;
+     console.log(text);
+
+
+    });
+  </script>
+
+  <script src="js/resp.js">
+    </script>
+    
+</html>

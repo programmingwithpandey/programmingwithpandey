@@ -1,0 +1,58 @@
+
+@media only screen and (max-width: 1150px) {
+    .nav-list{
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+    .rightnav{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      
+    }
+    .box-main{
+      flex-direction: column-reverse;
+      max-width: 100%;
+    }
+  
+    
+    #search{
+      width: 100%;
+    }
+    .navbar{
+      flex-direction: column;
+      height: 400px;
+      transition: all 0.7s ease-out;
+      
+    }
+    .burger{
+      display: block;
+    }
+    .h-nav-resp{
+      height: 70px;
+  
+    }
+    .v-class-resp{
+      visibility: hidden; 
+  
+    }
+    .section{
+      flex-direction: column-reverse;
+    }
+    .form{
+      width: 289px;
+    }
+    .text-big{
+      align-items: center;
+    }
+    .text-small{
+      align-items: center;
+    }
+    .button{
+      align-items: center;
+    }
+  
+  
+  }
